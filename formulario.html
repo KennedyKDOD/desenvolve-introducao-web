@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+
+    <h2>Dados Pessoais</h2>
+<form action="dadospesquisa.html" method="post">
+
+    <p>
+        <label for="nome">Nome: </label>
+        <input type="text" placeholder="Nome do cliente" id="nome">   
+    </p>
+<p>
+    <label for="email">E-mail:</label>
+    <input type="email" placeholder="e-mail" id="email"> 
+</p>
+<p>
+    <label for="telefone">Telefone:</label>
+    <input type="tel" placeholder="Número de telefone" id="telefone"> 
+</p>
+
+
+
+
+</form>
+
+
+<form action="pesquisa" method="post">
+    <h2>Pesquisa</h2>
+
+    <h4>Estado Civil:</h4>
+    <label for="Solteiro">
+        <input type="radio" name="estadocivil" id="Solteiro"> Solteiro
+    </label>
+
+    <label for="Casado">
+        <input type="radio" name="estadocivil" id="Casado"> Casado
+    </label>
+
+    <label for="Divorciado">
+        <input type="radio" name="estadocivil" id="Divorciado"> Divorciado
+    </label>
+
+    <h4>Qual o nível de satisfação com os serviços apresentados?</h4>
+
+    <label for="sat">
+        <input type="radio" name="satisfacao" id="sat"> Muito Satisfeito
+    </label>
+    <label for="raz">
+        <input type="radio" name="satisfacao" id="raz"> Razoavelmente Satisfeito
+    </label>
+    <label for="ins">
+        <input type="radio" name="satisfacao" id="ins"> Insatisfeito
+    </label>
+
+
+    <h4>De que região do Brasil você é?</h4>
+    <select name="regiao" id="">
+    <option value="">Sudeste</option>
+    <option value="">Nordeste</option>
+    <option value="">Sul</option>
+    <option value="">Norte</option>
+    <option value="">Centro-Oeste</option>
+
+</select>
+<br>
+<br>
+<input type="checkbox"> Autorizo o compartilhamento dessas informações com terceiros.
+<br>
+<br>
+<input type="submit" value="Enviar"> 
+</form>
+
+
+</body>
+</html>
