@@ -62,3 +62,22 @@ cor de destaque: #1CC3D9
         padding: 0.5em;
         display: inline-block;
     }
+
+
+ /* aula 14 - Exercícios posicionamento*/
+
+    .page-wrapper{position: relative;}
+
+    .explanation {
+        width: 60%;
+        border-right: #1f295c solid 1px;
+        padding-right: 2%; }
+
+    #design-selection{
+        position: absolute;
+        top: 560px;
+        left: 62%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
