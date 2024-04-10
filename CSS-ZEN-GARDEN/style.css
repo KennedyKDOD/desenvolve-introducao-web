@@ -112,3 +112,33 @@ cor de destaque: #1CC3D9
     .participation h3{
         align-self: center;
     }
+
+
+
+    
+       /* Aula 16 - Pseudoclasses */
+
+
+    a {color: #1CC3D9;
+    font-weight: bold;}
+
+    a:hover {
+        color: brown;
+    }
+   
+    a:visited {font-weight: normal;}
+
+
+    .main p:first-of-type::first-letter {
+        font-size: 3em;
+        font-family: 'Times New Roman', Times, serif;
+        float: left;
+    }
+
+    .design-selection li{
+        border-top: #1f295c solid 1px;
+    }
+
+    .design-selection li:last-of-type {
+        border-bottom: #1f295c solid 1px ;
+    }
