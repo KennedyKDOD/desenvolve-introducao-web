@@ -142,3 +142,44 @@ cor de destaque: #1CC3D9
     .design-selection li:last-of-type {
         border-bottom: #1f295c solid 1px ;
     }
+
+
+     /* Aula 17 - Media Query */
+
+    @media screen and (max-width: 768px) {
+        .design-selection {
+            position: static;
+            width: 100%;
+        }
+
+        .explanation {
+            border-right: none;
+            width: 100%;
+        }
+
+        #zen-intro {
+            height: auto;
+        }
+
+        .participation {
+            flex-direction: column;
+        }
+
+        p {
+            text-indent: 0;
+        }
+
+    }
+
+    @media print {
+        html {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #zen-intro header {
+            background-color: #c5e3e7;
+            color: #1f295c;
+        }
+    }
+
+
